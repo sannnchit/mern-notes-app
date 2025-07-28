@@ -1,0 +1,98 @@
+.notedetailpage {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(142, 169, 173, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 5rem;
+  position: relative;
+}
+
+.goback2 {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  background: #2d2c2c6e;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.detaildelete {
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+  background-color: #a73636dc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.detaildelete:hover {
+  background-color: #911c1cdc;
+}
+
+.updateform {
+  width: 70%;
+  max-width: 600px;
+  height: 50vh;
+  background-color: #bbebc0b9;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 2px 2px 15px rgba(64, 108, 71, 0.7);
+  position: relative;
+}
+
+.title2,
+.content2 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.title3,
+.content3 {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  color: rgb(4, 4, 4);
+}
+
+.content3 {
+  height: 100%;
+  resize: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.detailsubmit {
+  align-self: flex-end;
+  padding: 0.6rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #2d542ddf;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.detailsubmit:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}

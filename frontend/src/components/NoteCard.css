@@ -1,0 +1,66 @@
+.notebox {
+  width: 290px;
+  height: 250px;
+  background-color: #b2e2e2;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 6px 6px 10px rgba(234, 154, 25, 0.1);
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.notetitle0,
+.notecontent0 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.notetitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}
+
+.notecontent {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+  word-wrap: break-word;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.notebox span {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+.notebox img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.notebox > img {
+  position: absolute;
+  top: 0.75rem;
+  right: 2.5rem;
+}
+
+.delbutton {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
